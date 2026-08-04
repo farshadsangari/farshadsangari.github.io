@@ -478,7 +478,7 @@ h3 { margin: 0; font-size: 1.15rem; font-weight: 760; }
 .visual-metric > span:nth-child(4) { height: 78%; }
 .metric-curve { position: absolute; top: 27%; right: 14%; left: 14%; height: 45%; border-top: 2px solid var(--violet); border-radius: 50%; filter: drop-shadow(0 0 6px rgba(122,90,248,.35)); transform: rotate(-14deg); }
 
-.credentials-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+.credentials-grid { display: grid; grid-template-columns: repeat(3,1fr); align-items: start; gap: 20px; }
 .credential-column {
   padding: 28px;
   border: 1px solid #e1e6f0;
