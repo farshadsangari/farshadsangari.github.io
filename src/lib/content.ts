@@ -4,7 +4,7 @@ export const profile = {
   initials: "FS",
   role: "AI Software Engineer · Generative AI Researcher",
   location: "Tehran, Iran",
-  availability: "Open to PhD & senior AI software engineering roles",
+  availability: "Open to collaboration",
   email: "farshads7778@gmail.com",
   cv: "/Farshad_Sangari_CV.pdf",
   github: "https://github.com/farshadsangari",
@@ -17,7 +17,7 @@ export const profile = {
     { text: "generative AI research" },
   ] as { text: string; accent?: boolean }[],
   intro:
-    "AI Engineer and Team Lead for Computer Vision and Generative AI at ModAI, where I design and ship production LLM/VLM services, multimodal retrieval and ranking, and the distributed infrastructure behind them. Previously a researcher at the University of Tehran on interpretable representation learning. Open to PhD & senior AI software engineering roles.",
+    "AI Engineer and Team Lead for Computer Vision and Generative AI at ModAI, where I design and ship production LLM/VLM services, multimodal retrieval and ranking, and the distributed infrastructure behind them. Previously a researcher at the University of Tehran on interpretable representation learning. Open to collaboration.",
   focus: [
     "Software architecture for AI systems",
     "LLM / VLM services in production",
