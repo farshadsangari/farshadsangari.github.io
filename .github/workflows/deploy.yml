@@ -28,10 +28,13 @@ jobs:
           cache: npm
 
       - name: Install
-        run: npm ci
+        run: npm install --no-fund --no-audit
 
       - name: Build static site
         run: npm run build
+
+      - name: Verify static output
+        run: test -f .output/public/index.html && ls -la .output/public
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
