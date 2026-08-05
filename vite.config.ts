@@ -20,6 +20,8 @@ export default defineConfig({
         enabled: true,
         crawlLinks: true,
         failOnError: true,
+        // Never prerender binary assets — crawling them corrupts the real files.
+        filter: ({ path }) => !/\.(pdf|png|jpe?g|webp|gif|ico|svg|txt|xml)$/i.test(path),
       },
     }),
     viteReact(),
