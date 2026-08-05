@@ -20,9 +20,15 @@ Open http://localhost:8080/
 | Command | Description |
 | --- | --- |
 | `npm run dev` | Start local development server |
-| `npm run build` | Production build |
+| `npm run build` | Production build (static prerender for GitHub Pages) |
 | `npm run preview` | Preview the production build |
 | `npm run lint` | Run ESLint |
+
+## Deploy
+
+Pushing to `main` runs GitHub Actions, which builds the static site and deploys it to GitHub Pages (`https://farshadsangari.github.io/`).
+
+In the repo settings, Pages source must be **GitHub Actions** (not “Deploy from a branch”).
 
 ## Stack
 

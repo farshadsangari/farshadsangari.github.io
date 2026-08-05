@@ -15,6 +15,12 @@ export default defineConfig({
     tanstackStart({
       // Use src/server.ts (SSR error wrapper) instead of the default entry.
       server: { entry: "server" },
+      // Pre-render static HTML so the site can be hosted on GitHub Pages.
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
+        failOnError: true,
+      },
     }),
     viteReact(),
     tailwindcss(),
