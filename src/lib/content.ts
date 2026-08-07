@@ -25,7 +25,7 @@ export const profile = {
     "Interpretable representation learning",
   ] as string[],
   snapshot: [
-    { label: "Now", value: "AI Engineer & Team Lead — ModAI (Oct 2023 → present)" },
+    { label: "Now", value: "AI Software Engineer & Team Lead — ModAI (Oct 2023 → present)" },
     { label: "Engineering", value: "4.5+ years building Python services, APIs & MLOps" },
     { label: "Research", value: "MSc AI, University of Tehran — 3.89/4, ranked 3rd in cohort" },
     { label: "Publication", value: "arXiv 2026 — interpretable sparse latent representations" },
@@ -163,7 +163,7 @@ export const experience = [
     kind: "Software engineering",
     org: "ModAI",
     orgNote: "AI super-app · multimodal fashion discovery",
-    title: "AI Engineer & Team Lead — Computer Vision & Generative AI",
+    title: "AI Software Engineer & Team Lead — Computer Vision & Generative AI",
     place: "Tehran, Iran · Hybrid",
     summary:
       "Own the end-to-end software architecture of the AI platform: service design, APIs, data planes, deployment, and evaluation — while leading a small CV/GenAI team.",
